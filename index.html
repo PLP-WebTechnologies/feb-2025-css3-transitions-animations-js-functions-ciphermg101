@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theme Switcher with Animations</title>
+     <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>CSS Animations & Local Storage Demo</h1>
+            <p>This demo showcases CSS transitions, animations, and JavaScript localStorage functionality.</p>
+        </header>
+
+        <div class="button-container">
+            <button class="theme-toggle" id="theme-toggle">Toggle Dark Mode</button>
+            <button class="reset-btn" id="reset-btn">Reset Preferences</button>
+        </div>
+
+        <div class="card-container">
+            <div class="card">
+                <div class="icon">
+                    <span>🎨</span>
+                </div>
+                <h3>CSS Transitions</h3>
+                <p>Smooth transitions between element states using CSS properties.</p>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <span>✨</span>
+                </div>
+                <h3>CSS Animations</h3>
+                <p>Complex, multi-step animations using keyframes.</p>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <span>🔄</span>
+                </div>
+                <h3>Theme Switch</h3>
+                <p>Toggle between light and dark modes with animated transitions.</p>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <span>💾</span>
+                </div>
+                <h3>LocalStorage</h3>
+                <p>Remembers your theme preference across browser sessions.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="notification" id="notification">Preference saved!</div>
+    <script src="script.js"></script>
+</body>
+</html>
